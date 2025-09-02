@@ -14,7 +14,7 @@ declare global {
 
 if (!process.env.NEXT_PUBLIC_MONGODB_URI) {
   throw new Error(
-    "Please define the MONGODB_URI environment variable inside .env.local"
+    "Please define the NEXT_PUBLIC_MONGODB_URI environment variable inside .env.local"
   );
 }
 
